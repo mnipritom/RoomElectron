@@ -1,29 +1,41 @@
+
+
 body{
-    background-color: #E0F2F1;
+    background-color: #E0E5EC;
 	
 }
 
+.navigation {
+    border-radius: 5px;
+    
+    background: lightcyan;
 
-#container{
+    box-shadow: 0px 5px 10px rgb(206, 206, 206);
+}
+
+.description{
+    border-radius: 5px;
+    
+    background: lightcyan;
+
+    box-shadow: 0px 5px 10px rgb(206, 206, 206);
+}
+
+.container{
     border-radius: 5px;
 
-    
-    
-}
-
-.containerContent{
-    border-radius: 10px;
-
     background-color: lightcyan;
-    
+    box-shadow: 0px 5px 10px rgb(206, 206, 206);
 }
+
+
 
 .roomView{
     
     background: coral;
-    border-radius: 10px;
+    border-radius: 15px;
     
-    box-shadow: 0px 5px 40px #8c8c8c;
+    box-shadow: 0px 5px 10px #8c8c8c;
     
     transition: 1s box-shadow;
     
@@ -32,8 +44,8 @@ body{
 .wallView{
 
     background: teal;
-    box-shadow: 0px 5px 40px #8c8c8c;
-    border-radius: 10px;
+    box-shadow: 0px 5px 10px #8c8c8c;
+    border-radius: 15px;
 	
 	transition: 1s box-shadow;
 	
