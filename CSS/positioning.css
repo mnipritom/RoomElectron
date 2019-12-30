@@ -1,0 +1,57 @@
+body{
+    height: 500px;
+    width: 1200px;
+    
+    margin: auto;
+	
+    
+    
+	
+}
+
+
+#container{
+
+    position: absolute;
+    top: auto; right: 5vw; bottom: auto; left: 5vw;
+    border: 15px solid orange
+    /* no need to mention height, width. already defined in body */
+
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.containerContent{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 5px;
+}
+
+.roomView{
+    margin: 20px;
+    padding: 20px;
+
+    width: 300px;
+    height: 300px;
+    
+    
+    
+}
+
+.wallView{
+
+    
+
+    margin: 20px;
+    padding: 20px;
+    
+    flex-grow: 1;/* instead of height and width, takes up the rest of the space left after whatever roomView occupies from container */
+    
+    
+	
+}
+
