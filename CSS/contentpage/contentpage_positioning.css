@@ -1,0 +1,91 @@
+body{
+
+    height: 100%;
+    width: 100%;
+     
+    position: relative; /* is for the bottom margin to work */
+
+    overflow: hidden;
+   
+}
+#content{
+    height: 800px;
+    width: 1080px;
+
+    margin: auto;
+    margin-top: 10vh; /* this is the top margin that keeps everything centered, re acting to body positioning: relative */
+    margin-bottom: 10vh; /* i think top margin is what keeping it centered, there is not much effect of this one */
+
+    display: flex;
+    flex-direction: column;
+
+}
+.navigation {
+    height: 100px;
+    width: 100%;
+
+    margin-bottom: 20px;
+}
+.description{
+    height: 100px;
+    width: 100%;
+    
+    margin-top: 20px;
+}
+
+
+.container{
+
+    height: 100%;
+    width: 100%;
+    
+    overflow-y: scroll; /* smooth scroll at navigation pane click */
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+
+.containerContent{
+
+    height: 100%; /* reference: roomView */
+    width: 95%;
+
+    margin: auto;
+    
+
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.roomView{
+    margin: 15px;
+    padding: 15px;
+
+    width: 300px;
+    height: 235px;
+    
+    
+    
+}
+
+.wallView{
+
+    
+
+    margin: 15px;
+    padding: 15px;
+    
+    flex-grow: 1;/* instead of height and width, takes up the rest of the space left after whatever roomView occupies from container */
+    /* container content flex */
+    
+	
+}
+
