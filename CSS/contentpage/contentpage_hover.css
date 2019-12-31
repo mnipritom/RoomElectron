@@ -9,3 +9,10 @@
     transition: 0.5s box-shadow;
     box-shadow: 0px 5px 20px teal;
 }
+
+
+.nav_items:hover{
+    cursor: pointer;
+    transition: 0.5s box-shadow;
+    box-shadow: 0px 5px 15px coral;;
+}
