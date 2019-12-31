@@ -1,0 +1,9 @@
+
+@charset "UTF-8";
+body{
+    font-family: roboto;
+}
+@font-face{
+    font-family: roboto;
+    src: url(../../Assets/fonts/roboto/RobotoCondensed-Bold.ttf);
+}

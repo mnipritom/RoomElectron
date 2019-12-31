@@ -9,20 +9,13 @@ body{
    
 }
 
-.description{
-    height: 100px;
-    width: 100%;
-    
-    margin-top: 20px;
-}
-
 #content{
     height: 600px;
     width: 1080px;
 
     margin: auto;
-    margin-top: 25vh; /* this is the top margin that keeps everything centered, re acting to body positioning: relative */
-    margin-bottom: 25vh; /* i think top margin is what keeping it centered, there is not much effect of this one */
+    margin-top: 20vh; /* this is the top margin that keeps everything centered, re acting to body positioning: relative */
+    margin-bottom: 20vh; /* i think top margin is what keeping it centered, there is not much effect of this one */
 
     display: flex;
     flex-direction: column;

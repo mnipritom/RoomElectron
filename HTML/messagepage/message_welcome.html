@@ -2,20 +2,73 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Skeuomorphic UX</title>
+    <title>Welcome message</title>
+    <link rel="stylesheet" href="../../CSS/global/globalAttributes.css">
     <link rel="stylesheet" href="../../CSS/messagepage/messagepage_positioning.css">
     <link rel="stylesheet" href="../../CSS/contentpage/contentpage_designing.css">
     
+    
 </head>
+<style>
+    .roomView section, .wallView section{
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .roomView{
+        background-image: url(/Assets/img/backgrounds/shopbg.jpg);
+        background-size: cover;
+    }
+    .roomView:hover{
+        transition: 0.5s box-shadow;
+        box-shadow: 0px 5px 10px grey;
+    }
+    .wallView a{
+        text-decoration: none;
+        padding: 5px;
+    }
+    .wallView a:hover{
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: coral;
+        cursor: pointer;
+        transition: 0.5s box-shadow;
+        box-shadow: 0px 5px 10px grey;
+    }
+    
+</style>
 <body>
     <div id="content">
         <div class="container">
             <div class="containerContent">
-                <div class="roomView"></div>
-                <div class="wallView"></div>
+                <div class="roomView">
+                    <section>
+                        <h1>Fresh New Kicks</h1>
+                        <h4>Shoes that make you wanna dance</h4>
+                    </section>
+                </div>
+                <div class="wallView">
+                    <section>
+                        <p>
+                            The shop name is from a line of MC Hammer's 90's hit "Can't touch this". 
+                            <blockquote>
+                            <h4>
+                                Fresh new kicks and pants<br>
+                                You got it like that now you know you wanna dance<br>
+                                So move out of your seat<br>
+                                And get a fly girl and catch this beat...<br>
+                            </h4>
+                            </blockquote>  
+                            I hope he doesn't sue.
+                        </p>
+                        <h3>Products will appear on this side</h3>
+                        <br>
+                        <br>
+                        <h1>Start browsing by clicking <a href="/HTML/contentpage/content_main.html">here</a></h1>
+                    </section>
+                </div>
             </div>
         </div>
-        <div class="description"></div>
+        
     </div>
     
     

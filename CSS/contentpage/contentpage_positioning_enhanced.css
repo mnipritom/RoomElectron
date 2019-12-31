@@ -22,6 +22,11 @@ body{
     margin-top: 20px;
 }
 
+.description section{
+    text-align: center;
+    margin-top: 20px;
+}
+
 #content{
     height: 800px;
     width: 1080px;
@@ -82,8 +87,31 @@ body{
     margin: 15px;
     padding: 15px;
     
+    
     flex-grow: 1;/* instead of height and width, takes up the rest of the space left after whatever roomView occupies from container */
     /* container content flex */
+    display: flex;
+    flex-direction: row;
+	overflow-x: scroll;
+}
+
+.walls{
+    height: 95%;    
+    min-width: 50%;
     
-	
+    position: relative;  /* to make the div clickable */
+    display: inline-block;
+    
+    margin-top: 15px;
+    margin-right: 15px;
+        
+}
+
+.walls a{
+    position: absolute; /* coresponds to walls position:relative */ /* makes the entire div clickable */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
